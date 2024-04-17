@@ -1,10 +1,10 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --botao-azul: black;
+    --cor-de-fundo: #7e0f00;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+    --botao-azul-efeito: black;
 }
 
 body {
@@ -21,7 +21,6 @@ body {
 }
 
 .principal {
-    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -146,7 +145,7 @@ body {
 }
 
 .lista__link a:active {
-    color: purple;
+    color: black;
 }
 
 .container__botao:hover {
