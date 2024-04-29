@@ -1,3 +1,14 @@
+#artext {
+    background: linear-gradient(to left,
+    violet, indigo,
+    blue, green, yellow,
+    orange, red);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+}
+
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
@@ -13,16 +24,6 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    #artext {
-        background: linear-gradient(to left,
-        violet, indigo,
-        blue, green, yellow,
-        orange, red);
-        background-clip: text;
-        display: inline;
-        color: transparent;
-        animation: animated 5s linear infinite;
-    }
 }
 
 * {
