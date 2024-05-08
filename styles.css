@@ -1,14 +1,3 @@
-#artext {
-    background: linear-gradient(to left,
-    violet, indigo,
-    blue, green, yellow,
-    orange, red);
-    background-clip: text;
-    display: inline;
-    color: transparent;
-    animation: animated 5s linear infinite;
-}
-
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
@@ -68,7 +57,16 @@ body {
     font-size: 28px;
     font-weight: 700;
 }
-
+.container__titulo{
+        background: linear-gradient(to left,
+        violet, indigo,
+        blue, green, yellow,
+        orange, red);
+        background-clip: text;
+        display: inline;
+        color: transparent;
+        animation: animated 5s linear infinite;
+}
 .container__imagem {
     margin: 1em 0 2em 0;
 }
@@ -92,7 +90,31 @@ body {
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
+.descricao__titulo{
+    background: linear-gradient(to left,
+    violet, indigo,
+    blue, green, yellow,
+    orange, red);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+}
 
+.descrição__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+.descricão__titulo{
+    background: linear-gradient(to left,
+    violet, indigo,
+    blue, green, yellow,
+    orange, red);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+}
 .descricao__texto {
     color: var(--cinza-secundario);
 }
@@ -121,10 +143,29 @@ body {
     font-size: 48px;
     color: var(--branco-principal);
 }
-
+.dispositivos__titulo{
+    background: linear-gradient(to left,
+    violet, indigo,
+    blue, green, yellow,
+    orange, red);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+}
 .lista__item {
     font-size: 32px;
     color: var(--branco-principal);
+}
+.lista__item{
+    background: linear-gradient(to left,
+    violet, indigo,
+    blue, green, yellow,
+    orange, red);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
 }
 
 .rodape {
